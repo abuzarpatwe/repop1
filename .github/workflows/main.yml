@@ -9,7 +9,7 @@ jobs:
         steps:
             - name: Checkout Code
               uses: actions/checkout@v2
-            - name: job1
+            - name: job1.py
               run: python job1.py
     job2:
         runs-on: ubuntu-latest
